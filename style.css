@@ -89,6 +89,9 @@ section {
 }
 
 /* HEADER */
+header{
+    background-color: #f0dfc0;
+}
 
 header p { 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -124,9 +127,9 @@ header img {
     flex-direction: row;
     justify-content: center;
     justify-content: space-around ;
-    background-color: #361c15;
+    background-color: #f0dfc0;
     border-radius: 12px 11px;
-    text-decoration-color: #f0dfc0;
+    
 }
 
 .CajitasUwu{
@@ -182,7 +185,8 @@ header img {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
     text-align: center;
-    color: #d37611;
+    color: #f0dfc0;
+    background-color: #361c15;
 }
 
 .Info {
@@ -193,18 +197,27 @@ header img {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
     text-align: center;
-    color: #d37611;
+    color: #361c15;
+    margin-top: 30px;
+    padding: 30px 28px;
+    background-image: url(../Proyecto/img/microorganismos-bucales7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .GuiaImagen{
     font-family: impact, sans-serif;
     font-weight: 200;
     text-align: center;
-    color: #d37611;
+    margin-top: 30px;
+    padding: 30px 28px;
+    color: #361c15;
+    background-image: url(../Proyecto/img/microorganismos-bucales7.jpg);
+    background-size:cover;
 }
 
 .Centro{
-    background-color: #253f4d;
+    background-color: #361c15;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
