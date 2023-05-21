@@ -1,8 +1,13 @@
 
-body{
-    background-color: #f0f0f0;
+$ColorBG: #f0dfc0;
+$ColorSD: #361c15;
 
-    p {
+// BODY //
+
+body{
+    background-color: $ColorBG
+
+     p {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-style: oblique;
         text-align: center;
@@ -17,19 +22,95 @@ body{
 
     ul{
         display: inline-block;
+
+        li{
+            align-items: center;
+        }
     }
     
     a{
-    color: #361c15;
+    color: $ColorSD;
     text-decoration: none;
     font-size: 20px;
     font-family: sans-serif;
     }
+    ol{
+        li{
+            display: inline-block;
+        }
+    }
+    
+    header{
+
+        ul{
+            li{
+                width: 300px;
+            }
+        }
+        
+        h1{
+            color: #d37611;
+        }   
+
+        nav{
+            img{
+                width: 30%;
+                border-radius: 20px;
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-top: 50px;
+                margin-bottom: 90px;
+            }
+
+            p{
+                display: flex;
+                flex-direction: row; 
+                justify-content: space-around;
+            }
+        }
+    }
 }
 
+// SECTION //
+ 
+ section {
+    size-adjust: 100px;
 
+}
+ 
+// HEADER //
+header{
 
+    background-color: $ColorBG;
 
+    p{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    color: $ColorSD
+
+    }
+
+    img{
+        border-radius: 50px;
+        padding-top: 30px;
+    }
+
+    
+}
+    
+
+.NavigationOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around ;
+    background-color: #f0dfc0;
+    border-radius: 12px 11px;
+    
+}
+ 
 header {
     margin: 15px;
 
