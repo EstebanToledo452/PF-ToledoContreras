@@ -1,0 +1,85 @@
+body {
+  background-color: #f0dfc0 p;
+  background-color-font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color-font-style: oblique;
+  background-color-text-align: center;
+  background-color-color: #361c15;
+}
+body nav {
+  color: #d37611;
+  text-align: center;
+}
+body ul {
+  display: inline-block;
+}
+body ul li {
+  align-items: center;
+}
+body a {
+  color: #361c15;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+body ol li {
+  display: inline-block;
+}
+body header ul li {
+  width: 300px;
+}
+body header h1 {
+  color: #d37611;
+}
+body header nav img {
+  width: 30%;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+body header nav p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+section {
+  size-adjust: 100px;
+}
+
+header {
+  background-color: #f0dfc0;
+}
+header p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  text-align: center;
+  color: #361c15;
+}
+header img {
+  border-radius: 50px;
+  padding-top: 30px;
+}
+
+.NavigationOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: #f0dfc0;
+  border-radius: 12px 11px;
+}
+
+header {
+  margin: 15px;
+}
+header h1 {
+  font-family: impact, sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #d37611;
+  border-radius: 60px;
+}
+
+/*# sourceMappingURL=main.css.map */
