@@ -231,8 +231,15 @@ header img {
 /* FOOTER */
 
 footer {
-    color: #bf004f;
+    color: #f0dfc0;
     text-align: left;
+}
+
+.card1 {
+    text-align: center;
+    padding-top: 40px;
+    background-color: #361c15;
+    border-radius: 15px;
 }
 
 /* MEDIA QUERIES */
