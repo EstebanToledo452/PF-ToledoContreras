@@ -1,11 +1,14 @@
 
+@import './utils/variables';
+
 $ColorBG: #f0dfc0;
 $ColorSD: #361c15;
+$ColorTD: #d37611;
 
 // BODY //
 
 body{
-    background-color: $ColorBG
+    background-color: $ColorBG;
 
      p {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +52,7 @@ body{
         }
         
         h1{
-            color: #d37611;
+            color: $ColorTD;
         }   
 
         nav{
@@ -106,7 +109,7 @@ header{
     flex-direction: row;
     justify-content: center;
     justify-content: space-around ;
-    background-color: #f0dfc0;
+    background-color: $ColorBG;
     border-radius: 12px 11px;
     
 }
@@ -118,10 +121,33 @@ h1 {
     font-family: impact, sans-serif;
     font-weight: 200;
     text-align: center;
-    color: #d37611;
+    color: $ColorTD;
     border-radius: 60px;
 
 }
 
 }
 
+
+
+
+
+// MEDIA QUERIES //
+
+@media (min-width: 500px ){
+
+    body nav {
+        color:#bf004f
+    }
+   
+}
+
+@media (max-width: 500px ) {
+    .NavigationOne {
+        display:flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+}

@@ -1,9 +1,11 @@
 body {
-  background-color: #f0dfc0 p;
-  background-color-font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  background-color-font-style: oblique;
-  background-color-text-align: center;
-  background-color-color: #361c15;
+  background-color: #f0dfc0;
+}
+body p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  text-align: center;
+  color: #361c15;
 }
 body nav {
   color: #d37611;
@@ -82,4 +84,16 @@ header h1 {
   border-radius: 60px;
 }
 
-/*# sourceMappingURL=main.css.map */
+@media (min-width: 500px) {
+  body nav {
+    color: #bf004f;
+  }
+}
+@media (max-width: 500px) {
+  .NavigationOne {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
