@@ -16,7 +16,7 @@ body{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-style: oblique;
         text-align: center;
-        color: #361c15  ;
+        color: $ColorSD  ;
     }
      
      nav {
@@ -90,7 +90,7 @@ header{
 
     p{
     
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: $FontPrimary;
     font-style: oblique;
     text-align: center;
     color: $ColorSD
@@ -121,7 +121,7 @@ header{
     flex-direction: row;
     justify-content: center;
     justify-content: space-around ;
-    background-color: #f0dfc0;
+    background-color: $ColorBG;
     border-radius: 12px 11px;
     
 }
@@ -133,7 +133,7 @@ header{
     column-gap: 100px;
     row-gap: 50px;
     padding: 50px;
-    background-color: #361c15;
+    background-color: $ColorSD;
 }
 
 .flexor{
@@ -141,7 +141,7 @@ header{
     display:flexbox;
     align-items: center;
     justify-content: center;
-    background-color: #f0dfc0;
+    background-color: $ColorBG;
     border-radius: 30px;
     size-adjust: 1fr;
 }
@@ -174,7 +174,7 @@ p {
     text-align: left;
     padding-top: 56px;
     padding-bottom: 50px;
-    
+
 }
 
 }
@@ -183,7 +183,7 @@ p {
     font-family: impact, sans-serif;
     font-weight: 500;
     text-align: center;
-    color:#361c15;
+    color:$ColorSD;
     margin-top: 30px;
     padding: 30px 28px; 
     background-image: url("../img/microorganismos-bucales7.jpg");
@@ -199,22 +199,23 @@ p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
     text-align: center;
-    color: #f0dfc0;
-    background-color: #361c15;
+    color: $ColorBG;
+    background-color: $ColorSD;
 }
 
 .Info {
-    color: #d37611;
+    color: $ColorSD;
     text-align: center;
+    margin-bottom: 150px;
 }
 .TemasO {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
     text-align: center;
-    color: #361c15;
+    color: $ColorSD;
     margin-top: 30px;
     padding: 30px 28px;
-    background-image: url(../Proyecto/img/microorganismos-bucales7.jpg);
+    background-image: url(../img/microorganismos-bucales7.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -225,20 +226,26 @@ p {
     text-align: center;
     margin-top: 30px;
     padding: 30px 28px;
-    color: #361c15;
-    background-image: url(../Proyecto/img/microorganismos-bucales7.jpg);
+    color: $ColorSD;
+    background-image: url(../img/microorganismos-bucales7.jpg);
     background-size:cover;
 }
 
 .Centro{
-    background-color: #361c15;
+    background-color: $ColorTD;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: x-large;
     text-align: center;
 }
+
+
+
+
+
+
 
 // FOOTER //
 footer {
