@@ -1,1 +1,166 @@
-@import '/sass/utils/variables'
+
+
+// BODY //
+
+body{
+    background-color: $ColorBG;
+
+     p {
+        font-family: $FontPrimary;
+        font-style: oblique;
+        text-align: center;
+        color: $ColorSD  ;
+    }
+     
+     nav {
+        color: $ColorTD;
+        text-align:center
+
+    }
+
+    ul{
+        display: inline-block;
+
+        li{
+            align-items: center;
+        }
+    }
+    
+    a{
+    color: $ColorSD;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    }
+    ol{
+        li{
+            display: inline-block;
+        }
+    }
+    
+    header{
+
+        ul{
+            li{
+                width: 300px;
+            }
+        }
+        
+        h1{
+            color: $ColorTD;
+        }   
+
+        nav{
+            img{
+                width: 30%;
+                border-radius: 20px;
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-top: 50px;
+                margin-bottom: 90px;
+            }
+
+            p{
+                display: flex;
+                flex-direction: row; 
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
+// SECTION //
+ 
+section {
+    size-adjust: 100px;
+
+}
+ 
+// HEADER //
+header{
+
+    background-color: $ColorBG;
+
+    p{
+    
+    font-family: $FontPrimary;
+    font-style: oblique;
+    text-align: center;
+    color: $ColorSD
+
+    }
+
+    img{
+        border-radius: 50px;
+        padding-top: 30px;
+    }
+
+    
+}
+
+// H2 //
+
+.Proto{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: $ColorBG;
+    background-color: $ColorSD;
+}
+
+.Info {
+    color: $ColorSD;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.TemasO {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: $ColorSD;
+    margin-top: 30px;
+    padding: 30px 28px;
+    background-image: url(../img/microorganismos-bucales7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.GuiaImagen{
+    font-family: impact, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px 28px;
+    color: $ColorSD;
+    background-image: url(../img/microorganismos-bucales7.jpg);
+    background-size:cover;
+}
+
+.Centro{
+    background-color: $ColorTD;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+
+
+
+
+// FOOTER //
+footer {
+    color: $ColorBG;
+    text-align: left;
+}
+
+.card1 {
+    text-align: center;
+    padding-top: 40px;
+    background-color: $ColorSD;
+    border-radius: 15px;
+}
