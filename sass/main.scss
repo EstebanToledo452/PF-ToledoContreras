@@ -1,5 +1,5 @@
 
-
+// VARIABLES //
 
 $ColorBG: #f0dfc0;
 $ColorSD: #361c15;
@@ -157,6 +157,32 @@ header{
     margin-top: 20px;
     margin-bottom: 50px; 
 }
+
+.CuadraDo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: $ColorSD;
+    row-gap: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+.parasitito{
+    margin-left: 10px;
+
+}
+
+.parra{
+    background-color: $ColorBG;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
  
 header {
     margin: 15px;
@@ -207,6 +233,7 @@ p {
     color: $ColorSD;
     text-align: center;
     margin-bottom: 150px;
+    background-image: url(../img/microorganismos-bucales7.jpg);
 }
 .TemasO {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -262,6 +289,10 @@ footer {
 
 .FooterT{
     background-color: $ColorSD;
+    border-radius: 50px;
+}
+.FooT{
+    color: $ColorBG;
 }
 
 
