@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
     "build-sass": "sass ./sass/main.scss ./css/main.css -w --no-source-map"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "sass": "^1.62.1"
   }
 }
